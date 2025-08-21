@@ -1,5 +1,5 @@
 {
-    "name": "helious/seat-ratting-taxes",
+    "name": "busa-git/seat-ratting-taxes",
     "type": "library",
     "keywords": [
         "helious",
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Helious\\SeatRattingTaxes\\": "src/"
+            "busa-git\\SeatRattingTaxes\\": "src/"
         }
     },
     "require": {
@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [ 
-                "Helious\\SeatRattingTaxes\\RattingTaxesServiceProvider"
+                "busa-git\\SeatRattingTaxes\\RattingTaxesServiceProvider"
             ]
         }
     }
