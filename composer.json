@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "busa-git\\SeatRattingTaxes\\": "src/"
+            "Helious\\SeatRattingTaxes\\": "src/"
         }
     },
     "require": {
@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [ 
-                "busa-git\\SeatRattingTaxes\\RattingTaxesServiceProvider"
+                "Helious\\SeatRattingTaxes\\RattingTaxesServiceProvider"
             ]
         }
     }
