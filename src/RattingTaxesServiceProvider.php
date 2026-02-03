@@ -9,9 +9,9 @@ class RattingTaxesServiceProvider extends AbstractSeatPlugin
 {
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/Config/seat-ratting-taxes.php', 'seat-ratting-taxes');
-        $this->mergeConfigFrom(__DIR__ . '/Config/seat-ratting-taxes.sidebar.php', 'package.sidebar.tools.entries');
-        $this->registerPermissions(__DIR__ . '/Config/seat-ratting-taxes.permissions.php', 'seat-ratting-taxes');
+        $this->mergeConfigFrom(__DIR__ . '/Config/ratting-moons.php', 'ratting-moons');
+        $this->mergeConfigFrom(__DIR__ . '/Config/ratting-moons.sidebar.php', 'package.sidebar.tools.entries');
+        $this->registerPermissions(__DIR__ . '/Config/ratting-moons.permissions.php', 'ratting-moons');
 
         $this->app->singleton(SystemNameExtractor::class, function ($app) {
             return new SystemNameExtractor();
@@ -21,7 +21,7 @@ class RattingTaxesServiceProvider extends AbstractSeatPlugin
     public function boot()
     {
         $this->loadRoutesFrom(__DIR__.'/routes.php');
-        $this->loadViewsFrom(__DIR__.'/resources/views', 'seat-ratting-taxes');
+        $this->loadViewsFrom(__DIR__.'/resources/views', 'ratting-moons');
 
         \Blade::directive('extractSystemName', function ($expression) {
             return "<?php echo \Helious\SeatRattingTaxes\Services\SystemNameExtractor::extract($expression); ?>";
@@ -49,7 +49,7 @@ class RattingTaxesServiceProvider extends AbstractSeatPlugin
      */
     public function getName(): string
     {
-        return 'SeAT Ratting Taxes';
+        return 'SeAT Ratting Moons';
     }
 
     /**
@@ -61,7 +61,7 @@ class RattingTaxesServiceProvider extends AbstractSeatPlugin
      */
     public function getPackageRepositoryUrl(): string
     {
-        return 'https://github.com/mackenziexD/seat-ratting-taxes';
+        return 'https://github.com/CJGit/ratting-moons';
     }
 
     /**
@@ -73,7 +73,7 @@ class RattingTaxesServiceProvider extends AbstractSeatPlugin
      */
     public function getPackagistPackageName(): string
     {
-        return 'seat-ratting-taxes';
+        return 'ratting-moons';
     }
 
     /**
@@ -85,6 +85,6 @@ class RattingTaxesServiceProvider extends AbstractSeatPlugin
      */
     public function getPackagistVendorName(): string
     {
-        return 'helious';
+        return 'cjgit';
     }
 }

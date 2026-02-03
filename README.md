@@ -1,7 +1,7 @@
-# SeAT-Ratting-Taxes - Ratting Tax Dashboard SeAT plugin created for Blackwater USA Inc.
+# SeAT-Ratting-Moons - Ratting Tax Dashboard SeAT plugin created for Blackwater USA Inc.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/helious/seat-ratting-taxes.svg?style=flat-square)](https://packagist.org/packages/helious/seat-ratting-taxes)
-[![Total Downloads](https://img.shields.io/packagist/dt/helious/seat-ratting-taxes.svg?style=flat-square)](https://packagist.org/packages/helious/seat-ratting-taxes)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/cjgit/ratting-moons.svg?style=flat-square)](https://packagist.org/packages/cjgit/ratting-moons)
+[![Total Downloads](https://img.shields.io/packagist/dt/cjgit/ratting-moons.svg?style=flat-square)](https://packagist.org/packages/cjgit/ratting-moons)
 
 Beacons plugin for [SeAT](https://github.com/eveseat/seat) and was created out of necessity to see quickly see exactly how much ISK has been given to corp from DED for ratting taxes (bounty_prizes).
 
@@ -15,11 +15,11 @@ Beacons plugin for [SeAT](https://github.com/eveseat/seat) and was created out o
 You can install the package via composer:
 
 ```bash
-composer require helious/seat-ratting-taxes
+composer require cjgit/ratting-moons
 ```
 
 ## Permissions
-- Remember to give Roles the `Access Ratting-Taxes` role under Seat-beacons
+- Remember to give Roles the `Access Ratting Moons` role under Seat-beacons
 - 
 ### Changelog
 

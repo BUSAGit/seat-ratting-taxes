@@ -1,6 +1,7 @@
-@extends('web::layouts.grids.12', ['viewname' => 'seat-ratting-taxes::index'])
+@extends('web::layouts.grids.12', ['viewname' => 'ratting-moons::index'])
 
-@section('page_header', 'Ratting Taxes')
+@section('title', 'Ratting Moons')
+@section('page_header', 'Ratting Moons')
 
 @section('full')
 <style>
@@ -44,7 +45,7 @@
         <div class="card-header border-0">
             <div class="row align-items-center">
                 <div class="col">
-                    <h3 class="mb-0">Ratting Taxes</h3>
+            <h3 class="card-title">Ratting Moons</h3>
                 </div>
                 <div class="col text-right">
                     <div class="row">
@@ -114,7 +115,7 @@ $(document).ready(function() {
         processing: true,
         serverSide: true,
         ajax: {
-            url: '{{ route("seat-ratting-taxes::journal-data") }}',
+            url: '{{ route("ratting-moons::journal-data") }}',
             data: function (d) {
                 // Collect all checked system names
                 d.systemNames = [];
@@ -179,7 +180,7 @@ $(document).ready(function() {
 
     function updateCards(selectedMonth) {
         $.ajax({
-            url: '{{ route("seat-ratting-taxes::get-monthly-data") }}',
+            url: '{{ route("ratting-moons::get-monthly-data") }}',
             method: 'GET',
             data: { month: selectedMonth },
             success: function(data) {

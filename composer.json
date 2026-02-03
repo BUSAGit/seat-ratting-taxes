@@ -1,10 +1,15 @@
 {
-    "name": "busa-git/seat-ratting-taxes",
+    "name": "cjgit/ratting-moons",
     "type": "library",
     "keywords": [
         "helious",
-        "seat-ratting-taxes"
+        "seat-ratting-taxes",
+        "ratting-moons"
     ],
+    "replace": {
+        "busa-git/seat-ratting-taxes": "self.version",
+        "helious/seat-ratting-taxes": "self.version"
+    },
     "authors": [
         {
             "name": "Helious",
