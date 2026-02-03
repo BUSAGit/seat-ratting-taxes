@@ -112,7 +112,7 @@ class RattingTaxController extends Controller
             ->sum('amount');
 
         $uniqueSystemNames = $this->getUniqueSystemNames();
-        return view('seat-ratting-taxes::index', compact('totalAmountThisMonth', 'totalAmountLastMonth', 'uniqueSystemNames'));
+        return view('ratting-taxes::index', compact('totalAmountThisMonth', 'totalAmountLastMonth', 'uniqueSystemNames'));
     }
 
     public function getJournalData(Request $request)

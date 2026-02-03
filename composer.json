@@ -1,9 +1,10 @@
 {
-    "name": "busa-git/seat-ratting-taxes",
+    "name": "busa-git/ratting-taxes",
     "type": "library",
     "keywords": [
         "helious",
-        "seat-ratting-taxes"
+        "seat-ratting-taxes",
+        "ratting-taxes"
     ],
     "replace": {
         "helious/seat-ratting-taxes": "self.version"

@@ -1,5 +1,6 @@
-@extends('web::layouts.grids.12', ['viewname' => 'seat-ratting-taxes::index'])
+@extends('web::layouts.grids.12', ['viewname' => 'ratting-taxes::index'])
 
+@section('title', 'Ratting Taxes')
 @section('page_header', 'Ratting Taxes')
 
 @section('full')
@@ -114,7 +115,7 @@ $(document).ready(function() {
         processing: true,
         serverSide: true,
         ajax: {
-            url: '{{ route("seat-ratting-taxes::journal-data") }}',
+            url: '{{ route("ratting-taxes::journal-data") }}',
             data: function (d) {
                 // Collect all checked system names
                 d.systemNames = [];
@@ -179,7 +180,7 @@ $(document).ready(function() {
 
     function updateCards(selectedMonth) {
         $.ajax({
-            url: '{{ route("seat-ratting-taxes::get-monthly-data") }}',
+            url: '{{ route("ratting-taxes::get-monthly-data") }}',
             method: 'GET',
             data: { month: selectedMonth },
             success: function(data) {

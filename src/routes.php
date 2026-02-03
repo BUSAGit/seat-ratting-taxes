@@ -14,15 +14,15 @@ Route::group([
 
     Route::get('/', [
         'uses' => 'RattingTaxController@index',
-        'as' => 'seat-ratting-taxes::index',
+        'as' => 'ratting-taxes::index',
     ]);
     Route::get('/journal-data', [
         'uses' => 'RattingTaxController@getJournalData',
-        'as' => 'seat-ratting-taxes::journal-data',
+        'as' => 'ratting-taxes::journal-data',
     ]);
     Route::get('/get-monthly-data', [
         'uses' => 'RattingTaxController@getMonthlyData',
-        'as' => 'seat-ratting-taxes::get-monthly-data',
+        'as' => 'ratting-taxes::get-monthly-data',
     ]);
 
 });
