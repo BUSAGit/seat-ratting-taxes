@@ -61,7 +61,7 @@ class RattingTaxesServiceProvider extends AbstractSeatPlugin
      */
     public function getPackageRepositoryUrl(): string
     {
-        return 'https://github.com/mackenziexD/seat-ratting-taxes';
+        return 'https://github.com/CJGit/ratting-moons';
     }
 
     /**
@@ -73,7 +73,7 @@ class RattingTaxesServiceProvider extends AbstractSeatPlugin
      */
     public function getPackagistPackageName(): string
     {
-        return 'seat-ratting-taxes';
+        return 'ratting-moons';
     }
 
     /**
@@ -85,6 +85,6 @@ class RattingTaxesServiceProvider extends AbstractSeatPlugin
      */
     public function getPackagistVendorName(): string
     {
-        return 'helious';
+        return 'cjgit';
     }
 }
