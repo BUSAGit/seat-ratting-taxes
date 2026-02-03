@@ -1,7 +1,7 @@
 # SeAT-Ratting-Taxes - Ratting Tax Dashboard SeAT plugin created for Blackwater USA Inc.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/helious/seat-ratting-taxes.svg?style=flat-square)](https://packagist.org/packages/helious/seat-ratting-taxes)
-[![Total Downloads](https://img.shields.io/packagist/dt/helious/seat-ratting-taxes.svg?style=flat-square)](https://packagist.org/packages/helious/seat-ratting-taxes)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/helious/seat-ratting-taxes.svg?style=flat-square)](https://packagist.org/packages/busa-git/seat-ratting-taxes)
+[![Total Downloads](https://img.shields.io/packagist/dt/helious/seat-ratting-taxes.svg?style=flat-square)](https://packagist.org/packages/busa-git/seat-ratting-taxes)
 
 Beacons plugin for [SeAT](https://github.com/eveseat/seat) and was created out of necessity to see quickly see exactly how much ISK has been given to corp from DED for ratting taxes (bounty_prizes).
 
