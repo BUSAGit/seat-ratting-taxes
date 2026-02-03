@@ -15,7 +15,7 @@ Beacons plugin for [SeAT](https://github.com/eveseat/seat) and was created out o
 You can install the package via composer:
 
 ```bash
-composer require helious/seat-ratting-taxes
+composer busa-git/seat-ratting-taxes
 ```
 
 ## Permissions

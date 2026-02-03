@@ -5,6 +5,9 @@
         "helious",
         "seat-ratting-taxes"
     ],
+    "replace": {
+        "helious/seat-ratting-taxes": "self.version"
+    },
     "authors": [
         {
             "name": "Helious",
